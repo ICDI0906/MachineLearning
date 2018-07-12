@@ -1,0 +1,8 @@
+{
+"name":"p210-高斯混合分布.py",
+"knowledge":{
+        "1" : "np.matmul(a,b) 矩阵相乘"
+        "2" : "from numpy.linalg import * 可以在求矩阵的逆inv "
+        "3" : "np.array().transpose() 求转置"
+    }
+}
