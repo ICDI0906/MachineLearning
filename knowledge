@@ -1,8 +1,14 @@
-{
+[{
 "name":"p210-高斯混合分布.py",
 "knowledge":{
         "1" : "np.matmul(a,b) 矩阵相乘"
         "2" : "from numpy.linalg import * 可以在求矩阵的逆inv "
         "3" : "np.array().transpose() 求转置"
-    }
-}
+    },
+ "name":"p213-密度DBSCAN算法.py",
+ "knowledge":{
+        "1" : "ramdom.sample(set([1,2,3]),2) 从集合中随机选取两个数据",
+        "2" : "&|-  可以用于集合的交并差",
+        "3" : "queue.Queue() 可以用来声明一个对象"
+     }
+}]
