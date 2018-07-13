@@ -11,4 +11,8 @@
         "2" : "&|-  可以用于集合的交并差",
         "3" : "queue.Queue() 可以用来声明一个对象"
      }
+ "name":"p213-层次聚类AGENS算法.py",
+ "knowledge":{
+        "1" : list().remove(item) 从list集合中删除item元素"
+     }
 }]
