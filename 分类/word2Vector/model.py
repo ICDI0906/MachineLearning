@@ -1,4 +1,7 @@
 # # learn from https://www.leiphone.com/news/201706/PamWKpfRFEI42McI.html
+# 该代码是为了通过神经网络K-grams获得
+# 当输入一个词时，在词典中找出最相近的词
+
 import time
 import numpy as np
 import tensorflow as tf
@@ -23,6 +26,7 @@ int_to_word = {d:w for d,w in enumerate(vocab)}
 # print("total words: {}".format(len(words)))
 # print("unique words: {}".format(len(set(words))))
 int_words = [word_to_int[w] for w in words]
+
 
 t = 1e-5 # t值
 threshold = 0.9  # 要删除率大于90%的
@@ -90,8 +94,7 @@ with train_graph.as_default():
     ## From Thushan Ganegedara's implementation
     valid_size = 7  # Random set of words to evaluate similarity on.
     valid_window = 100
-    # pick 8 samples from (0,100) and (1000,1100) each ranges. lower id implies more frequent
-    valid_examples = np.array(random.sample(range(valid_window), valid_size // 2))
+    valid_examples = np.array(random.sample(range(valid_window), valid_size // 2)) #在range 范围中随机选择一些点
     valid_examples = np.append(valid_examples,
                                random.sample(range(1000, 1000 + valid_window), valid_size // 2))
     with tf.name_scope('valid_example'):
@@ -102,7 +105,7 @@ with train_graph.as_default():
     # 验证单词集
     valid_dataset = tf.constant(valid_examples, dtype=tf.int32)
     # 计算每个词向量的模并进行单位化
-    norm = tf.sqrt(tf.reduce_sum(tf.square(embedding), 1, keepdims=True))
+    norm = tf.sqrt(tf.reduce_sum(tf.square(embedding), 1, keepdims=True))# 求平方之后，然后按照列进行求和运算
     normalized_embedding = embedding / norm # 数据除以标准差
     # 查找验证单词的词向量
     valid_embedding = tf.nn.embedding_lookup(normalized_embedding, valid_dataset)
@@ -163,33 +166,3 @@ with tf.Session(graph=train_graph) as sess:
     save_path = saver.save(sess, "checkpoints/text8.ckpt")
     embed_mat = sess.run(normalized_embedding)
     writer = tf.summary.FileWriter(logdir="./log",graph=sess.graph)
-
-
-    # import numpy as np
-# import tensorflow as tf
-# batch_dim_1=np.array([[1,2,3,4],[4,5,6,7],[7,8,9,10]])
-# print("batch_dim:\n",batch_dim_1)
-#
-# batch_dim_2=np.array([[3,4,5,6],[9,10,11,12],[13,14,15,16]])
-# print("batch_dim:\n",batch_dim_2)
-#
-# graph=tf.Graph()
-# with graph.as_default():
-#     a=tf.Variable(initial_value=batch_dim_1)
-#     b=tf.Variable(initial_value=batch_dim_2)
-#     result=(a,b)
-#     print("result:",result)
-#     result=tf.concat(values=[a,b],axis=0)
-#     print(result)
-#     result2=tf.reshape(tensor=result,shape=(2,3,-1))
-#     print("result2:",result2)
-#     result3=tf.transpose(a=result2,perm=(1,0,2)) # 当维度 > 2 时特别有用
-#     print("result3:", result3)
-#     shape=result3.get_shape().as_list()
-#     init=tf.global_variables_initializer()
-#
-# with tf.Session(graph=graph) as sess:
-#     sess.run(init)
-#     print("result:\n",sess.run(result))
-#     print("result2:\n", sess.run(result2))
-#     print("result3:\n", sess.run(result3))
