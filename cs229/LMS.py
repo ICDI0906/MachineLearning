@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 # 学习直线 y = a * x + b 中的 a,b 参数
+from numpy.linalg import *
 def train():
     # np.random.seed(10) # for the same order
     number_sample = 100000
@@ -27,12 +28,18 @@ def train():
         start = i * batch_size
         end = (i + 1) * batch_size
         theta += lr * np.sum((Y[start : end] - np.dot(X2[start : end], theta)).repeat(2).reshape(batch_size,2) * X2[start:end])
-        predY = X2 * theta
+        predY = np.dot(X2,theta.transpose())
 
-        loss = 1 / (2 * np.sum((predY[:,0] - Y)**2))
+        loss = 1 / 2 * np.sum((predY - Y)**2)
         lossList.append(loss)
         print(theta)
-    plt.plot(range(number_sample//batch_size),lossList)
+    # just one step to get the theta by theta = (XT*X)-1*XT*Y
+    oneStepTheta = np.dot(np.dot(inv(np.dot(X2.transpose(), X2)), X2.transpose()), Y)
+    predY = np.dot(X2, oneStepTheta.transpose())
+    loss = 1 / 2 * np.sum((predY - Y) ** 2)
+    print(loss)
+    lossList.append(loss)
+    plt.plot(range(number_sample//batch_size + 1),lossList)
     # plt.show()
     plt.savefig('loss.jpg')
 
