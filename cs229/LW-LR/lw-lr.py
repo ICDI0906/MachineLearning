@@ -6,6 +6,8 @@
 from MachineLearning.cs229.data.dataAPI import getData # must write the full path
 import numpy as np
 from numpy.linalg import *
+import matplotlib.pyplot as plt
+
 # param 训练数据集，lable, 测试数据，tau
 # return x 判断是否大于零 if > 0 则是1类，否则为0类
 def lwlr(trainX,trainY,x,tau):
@@ -40,5 +42,22 @@ if __name__ == '__main__':
     print(Y.shape)
     # print(Y.transpose().shape)
     # (68, 2) (68, 1)
-    result = lwlr(X, Y,np.array([-0.17,-0.41]), 0.01)
-    print(result)
+    taus = [0.01, 0.05,0.1, 0.5,1.0,5.0] # check different tau to see
+    fig = plt.figure()
+    for index,tau in enumerate(taus):
+        one = [] ; zero = []
+        for i in range(X.shape[0]):
+            result = lwlr(X, Y,X[i,:], tau)
+            if result == 1:
+                one.append(X[i,:].tolist())
+            else:
+                zero.append(X[i,:].tolist())
+        onePoints = np.array(one);zeroPoints = np.array(zero)
+        # print(len(taus),i)
+        plt.subplot(2,len(taus)/2,index + 1)
+        plt.scatter(zeroPoints[:, 0], zeroPoints[:, 1], marker = 'x', s = 40, linewidths = 2)
+        plt.scatter(onePoints[:, 0], onePoints[:, 1], marker = '^', linewidths = 2)
+        plt.title("tau = {0}".format(tau))
+    # plt.show()
+    plt.savefig('different_tau.jpg')
+    # it prove that when tau is small,it may overfitting,and when tau grows, it has better fitting.
