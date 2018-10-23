@@ -2,7 +2,7 @@
 # @Author : Kaishun Zhang 
 # @File : regularization.py 
 # @Function: 测试一下正则化是怎么来泛化误差的
-
+import numpy as np
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense,Activation
@@ -29,6 +29,7 @@ def regularization_test():
         Dense(10,kernel_regularizer = regularizers.l2(0.0001)),
         Activation('softmax')
     ])
+    print(model.summary())
     model.compile(loss = 'categorical_crossentropy',optimizer = 'adam',metrics = ['accuracy'])
     model.fit(X_train,Y_train,epochs = 1000,batch_size = 32,validation_data = (X_test,Y_test),callbacks = [EarlyStopping(monitor='val_err', patience=2)])
     # earlyStopping 当验证集的损失出现增高的两次时停止训练
