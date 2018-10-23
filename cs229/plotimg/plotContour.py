@@ -35,6 +35,7 @@ def plotContour():
     z = np.exp(-((y - y_mean) ** 2 + (x - x_mean) ** 2) / (2 * (1 ** 2)))
     z = z / (np.sqrt(2 * np.pi) * 1);
     plt.contour(x,y,z)
+    # plt.contourf(x,y,z) color for the gap of the contour
     plt.show()
 
 
