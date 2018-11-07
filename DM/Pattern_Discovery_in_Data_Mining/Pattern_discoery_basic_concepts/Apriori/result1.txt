@@ -1,0 +1,50 @@
+1774:Burgers
+1497:Pets
+874:Pubs
+1593:American (New)
+9250:Food
+4208:Automotive
+1442:Fitness & Instruction
+818:Sports Bars
+2975:Event Planning & Services
+1195:Dentists
+798:Sushi Bars
+6583:Beauty & Spas
+1694:Doctors
+1431:Hotels
+875:Financial Services
+1025:Professional Services
+848:Japanese
+25071:Restaurants
+1138:Women's Clothing
+2364:Sandwiches
+823:General Dentistry
+2271:Arts & Entertainment
+2199:Coffee & Tea
+1424:Grocery
+3103:Active Life
+1369:Breakfast & Brunch
+1150:Specialty Food
+1586:Home & Garden
+5121:Health & Medical
+4328:Bars
+1716:Auto Repair
+5088:Nightlife
+2657:Pizza
+11233:Shopping
+2495:Hotels & Travel
+870:Pet Services
+3468:Local Services
+4785:Home Services
+3078:Fashion
+1629:Chinese
+1848:Italian
+2851:Fast Food
+2416:American (Traditional)
+1002:Cafes
+1424:Real Estate
+1018:Ice Cream & Frozen Yogurt
+2091:Hair Salons
+2515:Mexican
+1115:Bakeries
+1667:Nail Salons

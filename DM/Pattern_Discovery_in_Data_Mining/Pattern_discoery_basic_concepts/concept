@@ -1,0 +1,16 @@
+(absolute)support is the count
+(relative)support is the fraction
+Association Rules X - > Y(s,c)
+s is the probability that a transaction contain X union Y
+c  is conditional probability that a transaction contains X also contains Y
+
+closed pattern : A pattern X is closed if X is frequent,and there is no super-pattern Y > X with the same support as X
+closed pattern is a losses compression of frequent patterns
+max-pattern : A pattern X is closed if X is frequent,and there is no super-pattern Y > X
+closed pattern is a lossy compression
+
+relative paper:
+Efficiently mining long patterns from databases
+Frequent pattern mining: current status and future directions
+Discovering Frequent Closed Itemsets for Association Rules
+Mining Association Rules between Sets of Items in Large Database.pdf
