@@ -14,3 +14,5 @@ Efficiently mining long patterns from databases
 Frequent pattern mining: current status and future directions
 Discovering Frequent Closed Itemsets for Association Rules
 Mining Association Rules between Sets of Items in Large Database.pdf
+
+common method in pattern evaluation :support, confidence, lift, chi-square, cosine, Jaccard

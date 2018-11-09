@@ -8,7 +8,7 @@ from collections import Counter
 min_sup = 771
 # 得到数据
 def getData():
-    with open('data.txt','r') as fw:
+    with open('../data/data.txt','r') as fw:
         data = fw.read().split('\n')
     return data
     '''
@@ -31,15 +31,16 @@ def getData():
 
 
 def greater_than_sup(item):
-    if item[1] > min_sup:
+    if item[1] >= min_sup:
         return True;
     else:
         return False;
 
 
 def find_frequent_1_itemset(Data):
-    data_list = [data_tmp for dat in Data for data_tmp in dat.split(';')]
+    data_list = [data_tmp for dat in Data for data_tmp in set(dat.split(';'))]
     counter = Counter(data_list)
+    print(counter)
     return counter
 
 
@@ -117,7 +118,7 @@ def apriori(Data):
                     else:
                         result_tmp[ck] = 1
         Ltmp = list(filter(greater_than_sup, result_tmp.items()))
-        # Ltmp = sorted(Ltmp, key = lambda x: x[0])
+        Ltmp = sorted(Ltmp, key = lambda x: x[0])   # important
         for ltmp in Ltmp:
             result[ltmp[0]] = ltmp[1]
         count += 1
