@@ -1,0 +1,103 @@
+Restaurants; 25071
+Shopping; 11233
+Food; 9250
+Restaurants;Food; 2101
+Beauty & Spas; 6583
+Health & Medical; 5121
+Nightlife; 5088
+Restaurants;Nightlife; 2533
+Home Services; 4785
+Bars; 4328
+Nightlife;Bars; 4328
+Restaurants;Bars; 2423
+Nightlife;Restaurants;Bars; 2423
+Automotive; 4208
+Local Services; 3468
+Active Life; 3103
+Fashion; 3078
+Shopping;Fashion; 3078
+Event Planning & Services; 2975
+Fast Food; 2851
+Restaurants;Fast Food; 2851
+Pizza; 2657
+Restaurants;Pizza; 2657
+Mexican; 2515
+Restaurants;Mexican; 2515
+Hotels & Travel; 2495
+Event Planning & Services;Hotels & Travel; 1471
+American (Traditional); 2416
+Restaurants;American (Traditional); 2416
+Sandwiches; 2364
+Restaurants;Sandwiches; 2364
+Arts & Entertainment; 2271
+Coffee & Tea; 2199
+Food;Coffee & Tea; 2199
+Hair Salons; 2091
+Beauty & Spas;Hair Salons; 2091
+Italian; 1848
+Restaurants;Italian; 1848
+Pizza;Italian; 771
+Restaurants;Pizza;Italian; 771
+Burgers; 1774
+Restaurants;Burgers; 1774
+Fast Food;Burgers; 774
+Restaurants;Fast Food;Burgers; 774
+Auto Repair; 1716
+Automotive;Auto Repair; 1716
+Doctors; 1694
+Health & Medical;Doctors; 1694
+Nail Salons; 1667
+Beauty & Spas;Nail Salons; 1667
+Chinese; 1629
+Restaurants;Chinese; 1629
+American (New); 1593
+Restaurants;American (New); 1593
+Home & Garden; 1586
+Shopping;Home & Garden; 1586
+Pets; 1497
+Fitness & Instruction; 1442
+Active Life;Fitness & Instruction; 1442
+Hotels; 1431
+Event Planning & Services;Hotels; 1431
+Hotels & Travel;Hotels; 1431
+Event Planning & Services;Hotels & Travel;Hotels; 1431
+Grocery; 1424
+Food;Grocery; 1424
+Real Estate; 1424
+Home Services;Real Estate; 1424
+Breakfast & Brunch; 1369
+Restaurants;Breakfast & Brunch; 1369
+Dentists; 1195
+Health & Medical;Dentists; 1195
+Specialty Food; 1150
+Food;Specialty Food; 1150
+Women's Clothing; 1138
+Fashion;Women's Clothing; 1138
+Shopping;Women's Clothing; 1138
+Fashion;Shopping;Women's Clothing; 1138
+Bakeries; 1115
+Food;Bakeries; 1115
+Professional Services; 1025
+Ice Cream & Frozen Yogurt; 1018
+Food;Ice Cream & Frozen Yogurt; 1018
+Cafes; 1002
+Restaurants;Cafes; 1002
+Financial Services; 875
+Pubs; 874
+Bars;Pubs; 874
+Nightlife;Pubs; 874
+Bars;Nightlife;Pubs; 874
+Pet Services; 870
+Pets;Pet Services; 870
+Japanese; 848
+Restaurants;Japanese; 848
+General Dentistry; 823
+Dentists;General Dentistry; 823
+Health & Medical;General Dentistry; 823
+Dentists;Health & Medical;General Dentistry; 823
+Sports Bars; 818
+Bars;Sports Bars; 818
+Nightlife;Sports Bars; 818
+Bars;Nightlife;Sports Bars; 818
+Sushi Bars; 798
+Restaurants;Sushi Bars; 798
