@@ -6,8 +6,8 @@
 #include <map>
 #include <math.h>
 #include <set>
+#include <time.h>
 using namespace std;
-// fp-tree实现
 typedef unsigned long ul;
 struct Node{
     string s;
@@ -135,13 +135,21 @@ void build_tree(vector<vector<string>> data, vector<Node> origin, map<string,int
     } else {
         dfs(root, 0, tmp, origin, origin_index);// generate path
         //generate origin[0] frequent pattern
+        if(!suffix.empty()){  // prefix
+            //cout<< "debug start --------- "<<endl;
+            for (pair<string,int> tmp : suffix) {
+                cout << tmp.first << "; ";
+            }
+            cout << suffix[suffix.size()-1].second << endl;
+            //cout<< "debug end --------- "<<endl;
+        }
         cout << origin[0].s <<"; ";
         for (pair<string,int> tmp : suffix) {
             cout << tmp.first << "; ";
         }
         cout << origin[0].count << endl;
 
-        //vector<vector<int>> data_value;
+        vector<vector<int>> data_value;
         for (int i = 1; i < origin.size(); i++) {
             data.clear();
             data_value.clear();
@@ -238,6 +246,8 @@ void view_origin(vector<Node> origin){
     }
 }
 int main() {
+    clock_t  start,end;
+    start = clock();
     freopen("../data/data.txt","r",stdin);
     //freopen("data.out","w",stdout);
     string lines;
@@ -258,5 +268,8 @@ int main() {
     }
     buildHeaderTable(data,suffix,data_value);
     //view_origin();
+    end = clock();
+    double interval = (double)(end - start) / CLOCKS_PER_SEC;
+    printf("cost time %.3f s",interval);
     return 0;
 }
