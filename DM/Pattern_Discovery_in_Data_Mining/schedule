@@ -6,3 +6,8 @@ Sequential Pattern Mining
 Pattern Mining Application :Mining spatiotemporal（时空） and Trajectory (轨迹) patterns
 Pattern Mining Application :Mining Quality Phrases from Text Data
 inherence regularities(内在规律)
+序列模式挖掘三个方法
+an Apriori-based sequential pattern mining method (GSP）
+a vertical data format-based sequential pattern method (SPADE)
+PrefixSpan
+Closed sequential patterns (CloSpan)
