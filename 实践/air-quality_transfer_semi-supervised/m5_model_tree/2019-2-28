@@ -1,0 +1,8 @@
+1. 需要搞明白DecisionTreeRegressor是怎么实现特征选择的
+按照李航书上说的是进行属性扫描切分点
+2. 对于多项式回归是怎么算出来的，就是LinearRegession
+直接使用numpy.linalg.lstsq
+3. 对于直接算出的参数值的方法有什么限制没有，效率如何
+必须X^T*X必须使可逆的，可以使用带惩罚项的最小二乘法解决。效率n^3
+4. 尝试在Tree Model 中使用多项式, 
+只能说比Linear Regression 要好一点，对于和提升树之间的关系还不是很明确
