@@ -31,6 +31,6 @@ def load_rec_talk_mix():
     return ng_all_data,ng_all_target
 
 
-def score_acc(clf,X_test,y_test):
+def score_err(clf,X_test,y_test):
     pred_y = clf.predict(X_test)
     return 1 - np.mean(pred_y == y_test)
