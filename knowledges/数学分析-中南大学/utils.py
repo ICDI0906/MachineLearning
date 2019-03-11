@@ -2,6 +2,7 @@
 # @Author : Kaishun Zhang 
 # @File : utils.py 
 # @Function:
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -13,6 +14,9 @@ def combination(x,y):
     '''
     return np.vstack((x,y)).T
 
+# 计算的函数
+def fun(x):
+    return 1 / (1 + x**2)
 
 # Lagrange interpolation 拉格朗日多项式插值
 def lagInter(arr,x):
@@ -76,4 +80,28 @@ def neville(arr,x):
                 curr_I[i] = pre_I[i] + (pre_I[i - 1] - pre_I[i]) / (x_o[i - col_i - 1] - x_o[i]) * (x_i - x_o[i])
             pre_I = curr_I
         y.append(pre_I[n - 1])
+    return combination(x, y)
+
+# 牛顿插值法
+def newton(arr,x):
+    '''
+    :param arr:
+    :param x:
+    :return: 同上
+    '''
+    x_o = arr[:, 0]
+    n, m = arr.shape
+    y = []
+    for x_i in x:
+        pre_I = arr[:, 1]  # 前一个I 记得要重新赋值
+        sum = pre_I[0] # F(x0)
+        tmp = 1 # (x-x0)(x-x1)(x-2) 累乘
+        for col_i in range(n - 1):
+            curr_I = np.zeros(n)
+            for i in np.arange(col_i + 1, n):
+                curr_I[i] = (pre_I[i - 1] - pre_I[i]) / (x_o[i - col_i - 1] - x_o[i])
+            tmp *= (x_i - x_o[col_i])
+            sum += tmp * curr_I[col_i + 1]
+            pre_I = curr_I
+        y.append(sum)
     return combination(x, y)
