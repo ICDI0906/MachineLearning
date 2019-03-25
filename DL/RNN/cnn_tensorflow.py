@@ -1,11 +1,11 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-
+from time import time
 tf.set_random_seed(1)
 mnist = input_data.read_data_sets("MNIST_DATA",one_hot = True)
 
 lr = 0.01
-training_iter = 1000
+training_iter = 2000
 batch_size = 128
 n_inputs = 28
 n_steps = 28
@@ -45,7 +45,7 @@ def RNN(X, weights, biases):
     results = tf.matmul(outputs[-1], weights['out']) + biases['out']
     return results;
 
-
+start = time()
 pred = RNN(x, weigths, biases)
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = pred,labels = y))
 train_op = tf.train.AdamOptimizer(lr).minimize(cost)
@@ -56,7 +56,7 @@ accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
     step = 0
-    while step * batch_size < training_iter:
+    while step < training_iter:
         train_x,train_y = mnist.train.next_batch(batch_size)
         train_x = train_x.reshape([batch_size, n_steps,n_inputs])
         sess.run([train_op],feed_dict = {
@@ -69,3 +69,6 @@ with tf.Session() as sess:
                 x: train_x,
                 y: train_y
             }))
+        step += 1
+
+print(time() - start)
