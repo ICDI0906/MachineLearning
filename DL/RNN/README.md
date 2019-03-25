@@ -1,0 +1,3 @@
+- 问题 : 收敛不到最优
+- ![loss](https://github.com/ICDI0906/MachineLearning/blob/master/DL/RNN/img/rnn.png)
+- 已经使用的方法: Adam,并减少了梯度消失。
