@@ -1,0 +1,425 @@
+2019-06-10 22:09:51,584 - __main__ - INFO - Log directory: .
+2019-06-10 22:09:51,585 - __main__ - INFO - source_station: %s target_station: %s
+2019-06-10 22:09:52,759 - __main__ - INFO - source_train: %s source_val: %s 
+ target_train_mete: %s target_val_mete: %s dist_angle: %s
+2019-06-10 22:12:15,940 - __main__ - INFO - Log directory: .
+2019-06-10 22:12:15,940 - __main__ - INFO - source_station: {32, 1, 33, 34, 35, 5, 6, 7, 9, 10, 13, 15, 17, 21, 22, 26, 29, 30} target_station: [28]
+2019-06-10 22:12:17,316 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:14:38,274 - __main__ - INFO - Log directory: .
+2019-06-10 22:14:38,275 - __main__ - INFO - source_station: {0, 1, 2, 32, 4, 5, 6, 7, 34, 9, 10, 35, 16, 17, 18, 21, 25, 26} target_station: [23]
+2019-06-10 22:14:39,879 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:19:31,315 - __main__ - INFO - Log directory: .
+2019-06-10 22:19:31,316 - __main__ - INFO - source_station: {0, 32, 3, 4, 35, 6, 9, 10, 11, 13, 15, 17, 18, 22, 23, 25, 26, 30} target_station: [7]
+2019-06-10 22:19:32,808 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:20:14,528 - __main__ - INFO - iterator :0train loss is 6439.7944
+2019-06-10 22:21:41,331 - __main__ - INFO - Log directory: .
+2019-06-10 22:21:41,331 - __main__ - INFO - source_station: {33, 34, 3, 35, 6, 11, 13, 15, 16, 18, 21, 23, 24, 25, 27, 28, 29, 30} target_station: [0]
+2019-06-10 22:21:42,548 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:22:20,475 - __main__ - INFO - Log directory: .
+2019-06-10 22:22:20,475 - __main__ - INFO - source_station: {1, 34, 3, 4, 35, 7, 10, 13, 15, 17, 18, 23, 24, 25, 26, 27, 28, 30} target_station: [9]
+2019-06-10 22:22:21,755 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:22:59,692 - __main__ - INFO - iterator :0train loss is 7081.7394
+2019-06-10 22:23:21,640 - __main__ - INFO - Log directory: .
+2019-06-10 22:23:21,640 - __main__ - INFO - source_station: {0, 32, 2, 3, 33, 5, 35, 9, 11, 17, 22, 23, 25, 26, 27, 28, 29, 30} target_station: [10]
+2019-06-10 22:23:22,890 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:24:04,268 - __main__ - INFO - iterator :0train loss is 8747.1006
+2019-06-10 22:30:22,859 - __main__ - INFO - Log directory: .
+2019-06-10 22:30:22,860 - __main__ - INFO - source_station: {0, 1, 33, 3, 34, 35, 7, 9, 11, 16, 18, 23, 24, 25, 27, 28, 30, 31} target_station: [2]
+2019-06-10 22:30:24,162 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:31:02,506 - __main__ - INFO - iterator :0train loss is 5995.1364
+2019-06-10 22:33:00,382 - __main__ - INFO - Log directory: .
+2019-06-10 22:33:00,383 - __main__ - INFO - source_station: {0, 1, 32, 3, 4, 5, 33, 7, 35, 10, 16, 22, 23, 27, 28, 29, 30, 31} target_station: [9]
+2019-06-10 22:33:01,771 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 22:33:43,707 - __main__ - INFO - iterator :0train loss is 15824.7781
+2019-06-10 22:34:21,953 - __main__ - INFO - iterator :1train loss is 12796.1608
+2019-06-10 22:41:42,713 - __main__ - INFO - iterator :2train loss is 37786.4548
+2019-06-10 22:43:11,134 - __main__ - INFO - iterator :3train loss is 12017.6785
+2019-06-10 22:44:23,526 - __main__ - INFO - iterator :4train loss is 31014.8570
+2019-06-10 23:01:19,293 - __main__ - INFO - iterator :5train loss is 12097.4950
+2019-06-10 23:02:16,271 - __main__ - INFO - iterator :6train loss is 6576.5700
+2019-06-10 23:38:22,846 - __main__ - INFO - Log directory: .
+2019-06-10 23:38:22,846 - __main__ - INFO - source_station: {0, 33, 34, 3, 5, 6, 7, 9, 10, 11, 13, 15, 23, 24, 26, 28, 30, 31} target_station: [4]
+2019-06-10 23:38:24,332 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 23:39:08,602 - __main__ - INFO - Log directory: .
+2019-06-10 23:39:08,603 - __main__ - INFO - source_station: {0, 32, 2, 33, 34, 5, 6, 35, 10, 11, 13, 15, 16, 23, 25, 26, 27, 30} target_station: [22]
+2019-06-10 23:39:10,785 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-10 23:39:54,939 - __main__ - INFO - iterator :0train loss is 27144.1922
+2019-06-11 09:26:44,841 - __main__ - INFO - Log directory: .
+2019-06-11 09:26:44,842 - __main__ - INFO - source_station: {0, 33, 2, 3, 4, 34, 6, 35, 9, 11, 15, 16, 18, 22, 24, 26, 27, 29} target_station: [31]
+2019-06-11 09:26:46,120 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 09:27:24,198 - __main__ - INFO - iterator :0train loss is 3523.1814
+2019-06-11 09:35:55,068 - __main__ - INFO - Log directory: .
+2019-06-11 09:38:30,653 - __main__ - INFO - Log directory: .
+2019-06-11 09:40:14,892 - __main__ - INFO - Log directory: .
+2019-06-11 09:42:17,629 - __main__ - INFO - Log directory: .
+2019-06-11 09:42:36,335 - __main__ - INFO - Log directory: .
+2019-06-11 09:42:51,381 - __main__ - INFO - Log directory: .
+2019-06-11 09:43:11,977 - __main__ - INFO - Log directory: .
+2019-06-11 09:45:29,975 - __main__ - INFO - Log directory: .
+2019-06-11 09:46:07,276 - __main__ - INFO - Log directory: .
+2019-06-11 09:46:31,768 - __main__ - INFO - Log directory: .
+2019-06-11 09:54:51,093 - __main__ - INFO - Log directory: .
+2019-06-11 09:55:06,643 - __main__ - INFO - Log directory: .
+2019-06-11 09:56:05,239 - __main__ - INFO - Log directory: .
+2019-06-11 10:02:34,428 - __main__ - INFO - Log directory: .
+2019-06-11 10:03:22,935 - __main__ - INFO - Log directory: .
+2019-06-11 10:03:41,379 - __main__ - INFO - Log directory: .
+2019-06-11 10:03:43,435 - __main__ - INFO - source_station: {0, 2, 35, 4, 5, 6, 7, 11, 13, 15, 16, 18, 22, 24, 25, 26, 27, 28} target_station: [9]
+2019-06-11 10:03:44,727 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 10:04:31,602 - __main__ - INFO - Log directory: .
+2019-06-11 10:12:20,821 - __main__ - INFO - Log directory: .
+2019-06-11 10:15:39,772 - __main__ - INFO - Log directory: .
+2019-06-11 10:18:47,612 - __main__ - INFO - Log directory: .
+2019-06-11 10:18:49,621 - __main__ - INFO - source_station: {0, 33, 4, 6, 9, 10, 11, 13, 15, 16, 17, 18, 23, 24, 25, 27, 29, 31} target_station: [3]
+2019-06-11 10:18:50,816 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 10:19:27,944 - __main__ - INFO - iterator :0train loss is 75.6429
+2019-06-11 10:20:03,091 - __main__ - INFO - iterator :0train loss is 90.9006
+2019-06-11 10:20:40,771 - __main__ - INFO - iterator :0train loss is 72.2704
+2019-06-11 10:21:17,527 - __main__ - INFO - iterator :0train loss is 72.9190
+2019-06-11 10:21:56,750 - __main__ - INFO - iterator :0train loss is 75.9484
+2019-06-11 10:22:32,338 - __main__ - INFO - iterator :0train loss is 71.5783
+2019-06-11 10:23:07,379 - __main__ - INFO - iterator :0train loss is 67.6060
+2019-06-11 10:23:41,886 - __main__ - INFO - iterator :0train loss is 68.9324
+2019-06-11 10:24:16,209 - __main__ - INFO - iterator :0train loss is 70.1198
+2019-06-11 10:24:50,779 - __main__ - INFO - iterator :0train loss is 67.9392
+2019-06-11 10:25:25,165 - __main__ - INFO - iterator :0train loss is 64.9908
+2019-06-11 10:25:59,880 - __main__ - INFO - iterator :0train loss is 64.6836
+2019-06-11 10:26:34,529 - __main__ - INFO - iterator :0train loss is 65.0623
+2019-06-11 10:27:09,684 - __main__ - INFO - iterator :0train loss is 63.6635
+2019-06-11 10:27:44,331 - __main__ - INFO - iterator :0train loss is 61.0282
+2019-06-11 10:28:20,935 - __main__ - INFO - iterator :0train loss is 62.2041
+2019-06-11 10:28:57,249 - __main__ - INFO - iterator :0train loss is 61.2185
+2019-06-11 10:29:32,874 - __main__ - INFO - iterator :0train loss is 58.6778
+2019-06-11 10:30:09,353 - __main__ - INFO - iterator :0train loss is 59.7710
+2019-06-11 10:30:45,966 - __main__ - INFO - iterator :0train loss is 58.2464
+2019-06-11 10:31:23,768 - __main__ - INFO - iterator :0train loss is 56.8853
+2019-06-11 10:32:00,773 - __main__ - INFO - iterator :0train loss is 57.8818
+2019-06-11 10:32:39,268 - __main__ - INFO - iterator :0train loss is 55.2824
+2019-06-11 10:33:18,710 - __main__ - INFO - iterator :0train loss is 56.7900
+2019-06-11 10:33:57,389 - __main__ - INFO - iterator :0train loss is 54.5254
+2019-06-11 10:34:37,469 - __main__ - INFO - iterator :0train loss is 56.0014
+2019-06-11 10:35:16,656 - __main__ - INFO - iterator :0train loss is 53.6394
+2019-06-11 10:35:55,916 - __main__ - INFO - iterator :0train loss is 55.1626
+2019-06-11 10:36:33,484 - __main__ - INFO - iterator :0train loss is 52.7937
+2019-06-11 10:37:10,187 - __main__ - INFO - iterator :0train loss is 53.9526
+2019-06-11 10:37:44,914 - __main__ - INFO - iterator :0train loss is 53.2118
+2019-06-11 10:38:19,399 - __main__ - INFO - iterator :0train loss is 51.8465
+2019-06-11 10:38:53,978 - __main__ - INFO - iterator :0train loss is 52.9015
+2019-06-11 10:39:28,586 - __main__ - INFO - iterator :0train loss is 52.1766
+2019-06-11 10:40:02,971 - __main__ - INFO - iterator :0train loss is 50.2716
+2019-06-11 10:40:36,756 - __main__ - INFO - iterator :0train loss is 51.0656
+2019-06-11 10:41:11,370 - __main__ - INFO - iterator :0train loss is 52.5971
+2019-06-11 10:41:46,253 - __main__ - INFO - iterator :0train loss is 51.2702
+2019-06-11 10:42:21,139 - __main__ - INFO - iterator :0train loss is 49.3334
+2019-06-11 10:42:56,315 - __main__ - INFO - iterator :0train loss is 50.0576
+2019-06-11 10:43:35,299 - __main__ - INFO - iterator :0train loss is 51.0409
+2019-06-11 10:44:13,733 - __main__ - INFO - iterator :0train loss is 49.8382
+2019-06-11 10:44:48,096 - __main__ - INFO - iterator :0train loss is 48.7084
+2019-06-11 10:45:22,343 - __main__ - INFO - iterator :0train loss is 47.7321
+2019-06-11 10:45:57,119 - __main__ - INFO - iterator :0train loss is 48.3120
+2019-06-11 10:46:37,479 - __main__ - INFO - iterator :0train loss is 49.8700
+2019-06-11 10:47:17,522 - __main__ - INFO - iterator :0train loss is 51.3086
+2019-06-11 10:47:55,351 - __main__ - INFO - iterator :0train loss is 48.5585
+2019-06-11 10:48:32,887 - __main__ - INFO - iterator :0train loss is 47.0828
+2019-06-11 10:49:09,816 - __main__ - INFO - iterator :0train loss is 48.4853
+2019-06-11 10:49:47,217 - __main__ - INFO - iterator :0train loss is 53.6772
+2019-06-11 10:50:24,434 - __main__ - INFO - iterator :0train loss is 51.4115
+2019-06-11 10:51:01,640 - __main__ - INFO - iterator :0train loss is 46.9997
+2019-06-11 10:51:40,024 - __main__ - INFO - iterator :0train loss is 56.2055
+2019-06-11 10:52:20,129 - __main__ - INFO - iterator :0train loss is 48.2283
+2019-06-11 10:52:57,114 - __main__ - INFO - iterator :0train loss is 49.3850
+2019-06-11 10:53:32,541 - __main__ - INFO - iterator :0train loss is 50.6607
+2019-06-11 10:54:06,789 - __main__ - INFO - iterator :0train loss is 45.9319
+2019-06-11 10:54:41,080 - __main__ - INFO - iterator :0train loss is 48.9143
+2019-06-11 10:55:15,271 - __main__ - INFO - iterator :0train loss is 45.8411
+2019-06-11 10:55:48,867 - __main__ - INFO - iterator :0train loss is 47.7153
+2019-06-11 10:56:23,209 - __main__ - INFO - iterator :0train loss is 45.9557
+2019-06-11 10:56:57,298 - __main__ - INFO - iterator :0train loss is 46.6756
+2019-06-11 10:57:31,608 - __main__ - INFO - iterator :0train loss is 46.8019
+2019-06-11 10:58:05,801 - __main__ - INFO - iterator :0train loss is 45.1497
+2019-06-11 10:58:39,914 - __main__ - INFO - iterator :0train loss is 44.9083
+2019-06-11 10:59:14,435 - __main__ - INFO - iterator :0train loss is 44.7839
+2019-06-11 10:59:48,169 - __main__ - INFO - iterator :0train loss is 44.4478
+2019-06-11 11:00:23,191 - __main__ - INFO - iterator :0train loss is 44.7561
+2019-06-11 11:00:57,718 - __main__ - INFO - iterator :0train loss is 44.2373
+2019-06-11 11:01:32,281 - __main__ - INFO - iterator :0train loss is 44.2844
+2019-06-11 11:02:08,886 - __main__ - INFO - iterator :0train loss is 44.2675
+2019-06-11 11:02:48,576 - __main__ - INFO - iterator :0train loss is 44.4072
+2019-06-11 11:03:27,171 - __main__ - INFO - iterator :0train loss is 46.3110
+2019-06-11 11:04:04,633 - __main__ - INFO - iterator :0train loss is 49.0995
+2019-06-11 11:04:42,616 - __main__ - INFO - iterator :0train loss is 50.8106
+2019-06-11 11:05:22,785 - __main__ - INFO - iterator :0train loss is 43.9917
+2019-06-11 11:06:03,291 - __main__ - INFO - iterator :0train loss is 47.7831
+2019-06-11 11:06:40,706 - __main__ - INFO - iterator :0train loss is 54.8894
+2019-06-11 11:07:16,093 - __main__ - INFO - iterator :0train loss is 44.8297
+2019-06-11 11:07:56,190 - __main__ - INFO - iterator :0train loss is 58.7776
+2019-06-11 11:08:35,611 - __main__ - INFO - iterator :0train loss is 45.7641
+2019-06-11 11:09:15,586 - __main__ - INFO - iterator :0train loss is 51.5911
+2019-06-11 11:09:55,632 - __main__ - INFO - iterator :0train loss is 44.1546
+2019-06-11 11:10:32,365 - __main__ - INFO - iterator :0train loss is 53.2432
+2019-06-11 11:11:09,462 - __main__ - INFO - iterator :0train loss is 45.8351
+2019-06-11 11:11:48,683 - __main__ - INFO - iterator :0train loss is 48.8044
+2019-06-11 11:12:27,554 - __main__ - INFO - iterator :0train loss is 44.3271
+2019-06-11 14:05:45,657 - __main__ - INFO - Log directory: .
+2019-06-11 14:14:10,311 - __main__ - INFO - Log directory: .
+2019-06-11 14:14:20,173 - __main__ - INFO - Log directory: .
+2019-06-11 14:42:07,547 - __main__ - INFO - Log directory: .
+2019-06-11 14:42:08,272 - __main__ - INFO - source_station: {32, 33, 2, 3, 4, 5, 6, 35, 9, 10, 15, 17, 23, 24, 25, 26, 29, 31} target_station: [21]
+2019-06-11 14:42:08,335 - __main__ - INFO - Log directory: .
+2019-06-11 14:42:08,577 - __main__ - INFO - source_station: {0, 1, 32, 3, 4, 5, 6, 7, 33, 9, 11, 13, 15, 16, 21, 25, 29, 31} target_station: [10]
+2019-06-11 14:42:09,162 - __main__ - INFO - Log directory: .
+2019-06-11 14:42:09,728 - __main__ - INFO - source_station: {0, 1, 2, 3, 32, 33, 6, 7, 34, 9, 10, 13, 22, 23, 25, 27, 30, 31} target_station: [24]
+2019-06-11 14:42:48,024 - __main__ - INFO - Log directory: .
+2019-06-11 14:42:48,210 - __main__ - INFO - source_station: {32, 1, 33, 3, 4, 34, 6, 7, 35, 9, 16, 17, 18, 23, 24, 26, 27, 29} target_station: [10]
+2019-06-11 14:45:27,028 - __main__ - INFO - Log directory: .
+2019-06-11 14:45:27,243 - __main__ - INFO - source_station: {0, 1, 2, 32, 35, 5, 7, 13, 15, 17, 21, 22, 24, 25, 28, 29, 30, 31} target_station: [26]
+2019-06-11 14:46:36,270 - __main__ - INFO - Log directory: .
+2019-06-11 14:46:36,457 - __main__ - INFO - source_station: {32, 1, 33, 3, 4, 5, 34, 7, 9, 10, 11, 13, 17, 18, 21, 25, 28, 29} target_station: [31]
+2019-06-11 14:48:39,023 - __main__ - INFO - Log directory: .
+2019-06-11 14:48:39,206 - __main__ - INFO - source_station: {0, 32, 2, 3, 4, 5, 33, 34, 35, 9, 10, 17, 18, 22, 23, 27, 29, 31} target_station: [1]
+2019-06-11 14:54:04,223 - __main__ - INFO - Log directory: .
+2019-06-11 14:54:04,456 - __main__ - INFO - source_station: {32, 2, 3, 34, 35, 6, 9, 11, 15, 16, 17, 21, 22, 23, 24, 26, 28, 30} target_station: [29]
+2019-06-11 14:57:46,231 - __main__ - INFO - Log directory: .
+2019-06-11 14:57:48,292 - __main__ - INFO - source_station: {0, 1, 2, 3, 4, 5, 6, 33, 34, 9, 15, 16, 21, 23, 24, 27, 28, 30} target_station: [7]
+2019-06-11 14:57:49,490 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 14:58:27,673 - __main__ - INFO - iterator :0train loss is 155.7733
+2019-06-11 15:01:40,653 - __main__ - INFO - Log directory: .
+2019-06-11 15:01:42,684 - __main__ - INFO - source_station: {0, 32, 2, 3, 5, 9, 10, 13, 15, 16, 17, 18, 22, 25, 26, 28, 30, 31} target_station: [11]
+2019-06-11 15:01:43,988 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 15:02:20,014 - __main__ - INFO - iterator :0train loss is 131.1021
+2019-06-11 15:06:01,339 - __main__ - INFO - Log directory: .
+2019-06-11 15:07:17,254 - __main__ - INFO - Log directory: .
+2019-06-11 15:08:19,027 - __main__ - INFO - Log directory: .
+2019-06-11 15:08:34,118 - __main__ - INFO - Log directory: .
+2019-06-11 15:08:47,934 - __main__ - INFO - Log directory: .
+2019-06-11 15:08:50,001 - __main__ - INFO - source_station: {0, 1, 2, 4, 3, 5, 6, 33, 10, 13, 16, 18, 21, 23, 26, 27, 30, 31} target_station: [35]
+2019-06-11 15:08:51,254 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 15:09:27,778 - __main__ - INFO - iterator :0train loss is 205.6762
+2019-06-11 15:10:26,417 - __main__ - INFO - Log directory: .
+2019-06-11 15:11:28,664 - __main__ - INFO - Log directory: .
+2019-06-11 15:13:51,885 - __main__ - INFO - Log directory: .
+2019-06-11 15:15:12,300 - __main__ - INFO - Log directory: .
+2019-06-11 15:15:51,033 - __main__ - INFO - Log directory: .
+2019-06-11 15:15:53,032 - __main__ - INFO - source_station: {0, 1, 2, 3, 32, 13, 15, 16, 17, 18, 23, 24, 25, 26, 27, 28, 29, 31} target_station: [4]
+2019-06-11 15:15:54,365 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 15:16:30,828 - __main__ - INFO - iterator :0train loss is 137.5287
+2019-06-11 15:17:27,816 - __main__ - INFO - Log directory: .
+2019-06-11 15:17:30,061 - __main__ - INFO - source_station: {1, 33, 34, 35, 5, 6, 7, 9, 10, 11, 13, 16, 18, 21, 22, 27, 30, 31} target_station: [25]
+2019-06-11 15:17:31,622 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 15:18:09,487 - __main__ - INFO - iterator :0train loss is 147.5848
+2019-06-11 15:19:01,117 - __main__ - INFO - Log directory: .
+2019-06-11 15:19:03,684 - __main__ - INFO - source_station: {0, 1, 33, 3, 4, 5, 6, 34, 10, 13, 15, 23, 25, 26, 27, 28, 29, 30} target_station: [22]
+2019-06-11 15:19:05,144 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 15:19:44,973 - __main__ - INFO - iterator :0train loss is 91.4426
+2019-06-11 15:19:46,259 - __main__ - INFO - iterator :0val loss is 16236.9113
+2019-06-11 16:01:03,479 - __main__ - INFO - Log directory: .
+2019-06-11 16:01:05,934 - __main__ - INFO - source_station: {1, 2, 3, 35, 5, 6, 7, 9, 10, 11, 15, 16, 18, 22, 23, 24, 27, 28} target_station: [29]
+2019-06-11 16:01:07,411 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 16:01:51,096 - __main__ - INFO - iterator :0train loss is 130.0613
+2019-06-11 16:01:52,588 - __main__ - INFO - iterator :0val loss is 51.6924
+2019-06-11 16:02:56,544 - __main__ - INFO - Log directory: .
+2019-06-11 16:02:58,675 - __main__ - INFO - source_station: {0, 1, 2, 32, 4, 5, 33, 7, 35, 9, 10, 16, 18, 23, 24, 25, 27, 28} target_station: [6]
+2019-06-11 16:02:59,989 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 16:03:38,078 - __main__ - INFO - iterator :0train loss is 126.2674
+2019-06-11 16:03:39,364 - __main__ - INFO - iterator :0val loss is 56.7217
+2019-06-11 16:03:51,035 - __main__ - INFO - station [30] test loss is 74.5263
+2019-06-11 16:06:10,749 - __main__ - INFO - Log directory: .
+2019-06-11 16:06:13,209 - __main__ - INFO - source_station: {32, 1, 33, 3, 34, 5, 6, 7, 35, 15, 17, 18, 21, 23, 24, 25, 26, 29} target_station: [10]
+2019-06-11 16:06:14,580 - __main__ - INFO - source_train: (18, 7883, 32) source_val: (18, 876, 32) 
+ target_train_mete: (1, 7883, 31) target_val_mete: (1, 876, 31) dist_angle: (18, 2)
+2019-06-11 16:06:51,563 - __main__ - INFO - iterator :0train loss is 88.4840
+2019-06-11 16:06:52,760 - __main__ - INFO - iterator :0val loss is 100.2822
+2019-06-11 16:07:04,181 - __main__ - INFO - station [22] test loss is 127.2194
+2019-06-11 16:07:43,239 - __main__ - INFO - iterator :1train loss is 118.9223
+2019-06-11 16:08:21,689 - __main__ - INFO - iterator :2train loss is 79.0054
+2019-06-11 16:09:01,554 - __main__ - INFO - iterator :3train loss is 81.3987
+2019-06-11 16:09:40,979 - __main__ - INFO - iterator :4train loss is 79.5791
+2019-06-11 19:28:33,972 - utils - INFO - Log directory: .
+2019-06-11 19:30:17,414 - utils - INFO - Log directory: .
+2019-06-11 20:35:19,711 - utils - INFO - Log directory: .
+2019-06-11 20:35:23,008 - __main__ - INFO - Log directory: .
+2019-06-11 20:35:36,006 - utils - INFO - Log directory: .
+2019-06-11 20:35:38,409 - __main__ - INFO - Log directory: .
+2019-06-11 20:35:56,142 - utils - INFO - Log directory: .
+2019-06-11 20:35:58,453 - __main__ - INFO - Log directory: .
+2019-06-11 20:36:23,224 - utils - INFO - Log directory: .
+2019-06-11 20:36:25,493 - __main__ - INFO - Log directory: .
+2019-06-11 20:38:02,300 - utils - INFO - Log directory: .
+2019-06-11 20:38:04,728 - __main__ - INFO - Log directory: .
+2019-06-11 20:38:47,382 - utils - INFO - Log directory: .
+2019-06-11 20:38:49,639 - __main__ - INFO - Log directory: .
+2019-06-11 20:39:19,571 - utils - INFO - Log directory: .
+2019-06-11 20:39:21,849 - __main__ - INFO - Log directory: .
+2019-06-11 20:39:47,172 - utils - INFO - Log directory: .
+2019-06-11 20:39:49,463 - __main__ - INFO - Log directory: .
+2019-06-11 20:40:23,221 - utils - INFO - Log directory: .
+2019-06-11 20:40:25,496 - __main__ - INFO - Log directory: .
+2019-06-11 20:40:39,605 - utils - INFO - Log directory: .
+2019-06-11 20:40:41,801 - __main__ - INFO - Log directory: .
+2019-06-11 20:41:33,278 - utils - INFO - Log directory: .
+2019-06-11 20:41:35,549 - __main__ - INFO - Log directory: .
+2019-06-11 20:42:31,164 - utils - INFO - Log directory: .
+2019-06-11 20:42:33,393 - __main__ - INFO - Log directory: .
+2019-06-11 20:49:44,904 - utils - INFO - Log directory: .
+2019-06-11 20:49:47,232 - __main__ - INFO - Log directory: .
+2019-06-11 20:50:54,254 - utils - INFO - Log directory: .
+2019-06-11 20:50:56,447 - __main__ - INFO - Log directory: .
+2019-06-11 20:51:48,665 - utils - INFO - Log directory: .
+2019-06-11 20:51:51,180 - __main__ - INFO - Log directory: .
+2019-06-11 20:52:03,378 - utils - INFO - Log directory: .
+2019-06-11 20:52:05,613 - __main__ - INFO - Log directory: .
+2019-06-11 20:53:18,535 - utils - INFO - Log directory: .
+2019-06-11 20:53:20,814 - __main__ - INFO - Log directory: .
+2019-06-11 20:56:30,224 - utils - INFO - Log directory: .
+2019-06-11 20:56:32,595 - __main__ - INFO - Log directory: .
+2019-06-11 20:57:00,073 - utils - INFO - Log directory: .
+2019-06-11 20:57:02,337 - __main__ - INFO - Log directory: .
+2019-06-11 20:57:40,178 - utils - INFO - Log directory: .
+2019-06-11 20:57:42,323 - __main__ - INFO - Log directory: .
+2019-06-11 21:02:46,223 - utils - INFO - Log directory: .
+2019-06-11 21:02:48,429 - __main__ - INFO - Log directory: .
+2019-06-11 21:19:09,129 - utils - INFO - Log directory: .
+2019-06-11 21:19:11,683 - __main__ - INFO - Log directory: .
+2019-06-11 21:19:21,845 - utils - INFO - Log directory: .
+2019-06-11 21:19:24,389 - __main__ - INFO - Log directory: .
+2019-06-11 21:21:25,441 - utils - INFO - Log directory: .
+2019-06-11 21:21:27,833 - __main__ - INFO - Log directory: .
+2019-06-11 21:22:10,611 - utils - INFO - Log directory: .
+2019-06-11 21:22:12,938 - __main__ - INFO - Log directory: .
+2019-06-11 21:23:47,990 - utils - INFO - Log directory: .
+2019-06-11 21:23:50,376 - __main__ - INFO - Log directory: .
+2019-06-11 21:24:47,954 - utils - INFO - Log directory: .
+2019-06-11 21:24:50,502 - __main__ - INFO - Log directory: .
+2019-06-11 21:29:02,550 - utils - INFO - Log directory: .
+2019-06-11 21:29:04,886 - __main__ - INFO - Log directory: .
+2019-06-11 21:29:53,084 - utils - INFO - Log directory: .
+2019-06-11 21:29:55,545 - __main__ - INFO - Log directory: .
+2019-06-11 21:29:57,216 - __main__ - INFO - source_station: {32, 1, 2, 3, 33, 5, 6, 35, 9, 10, 15, 18, 25, 26, 27, 28, 29, 30} target_station: [0]
+2019-06-11 21:29:57,216 - utils - INFO - load data ....
+2019-06-11 21:29:58,498 - utils - INFO - load data cost 1.2822539806365967
+2019-06-11 21:29:58,504 - utils - INFO - 
+Split data finished!
+train: 6960, val: 7007
+2019-06-11 21:31:43,795 - utils - INFO - Log directory: .
+2019-06-11 21:31:46,276 - __main__ - INFO - Log directory: .
+2019-06-11 21:31:47,907 - __main__ - INFO - source_station: {0, 1, 2, 32, 33, 5, 34, 7, 35, 10, 11, 13, 17, 23, 24, 28, 29, 30} target_station: [31]
+2019-06-11 21:31:47,907 - utils - INFO - load data ....
+2019-06-11 21:31:49,130 - utils - INFO - load data cost 1.222823143005371
+2019-06-11 21:31:49,130 - utils - INFO - 
+Split data finished!
+train: 6960, val: 7007
+2019-06-11 21:31:50,006 - __main__ - INFO - iterator :0train loss is 81.6681
+2019-06-11 21:35:23,005 - utils - INFO - Log directory: .
+2019-06-11 21:35:23,180 - utils - INFO - Log directory: .
+2019-06-11 21:35:26,652 - utils - INFO - Log directory: .
+2019-06-11 21:35:33,864 - utils - INFO - Log directory: .
+2019-06-11 21:35:36,225 - __main__ - INFO - Log directory: .
+2019-06-11 21:35:37,847 - __main__ - INFO - source_station: {32, 1, 3, 5, 7, 9, 10, 11, 16, 18, 21, 22, 23, 24, 26, 27, 29, 30} target_station: [34]
+2019-06-11 21:35:37,847 - utils - INFO - load data ....
+2019-06-11 21:35:39,034 - utils - INFO - load data cost 1.1867420673370361
+2019-06-11 21:35:39,034 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 7007, test :0 
+2019-06-11 21:35:39,859 - __main__ - INFO - iterator :0train loss is 158.2323
+2019-06-11 21:37:09,538 - utils - INFO - Log directory: .
+2019-06-11 21:37:12,140 - utils - INFO - Log directory: .
+2019-06-11 21:37:14,583 - __main__ - INFO - Log directory: .
+2019-06-11 21:37:16,450 - __main__ - INFO - source_station: {0, 2, 33, 4, 35, 6, 7, 10, 15, 18, 21, 22, 24, 25, 27, 28, 29, 30} target_station: [32]
+2019-06-11 21:37:16,450 - utils - INFO - load data ....
+2019-06-11 21:37:17,813 - utils - INFO - load data cost 1.3631830215454102
+2019-06-11 21:37:17,814 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 875, test :877 
+2019-06-11 21:37:18,684 - __main__ - INFO - iterator :0train loss is 102.8985
+2019-06-11 21:37:56,132 - utils - INFO - Log directory: .
+2019-06-11 21:37:58,749 - __main__ - INFO - Log directory: .
+2019-06-11 21:38:00,634 - __main__ - INFO - source_station: {1, 3, 34, 5, 6, 10, 11, 13, 15, 17, 18, 21, 23, 25, 26, 27, 28, 29} target_station: [33]
+2019-06-11 21:38:00,634 - utils - INFO - load data ....
+2019-06-11 21:38:01,849 - utils - INFO - load data cost 1.214900016784668
+2019-06-11 21:38:01,849 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 875, test :877 
+2019-06-11 21:38:02,847 - __main__ - INFO - iterator :0train loss is 167.4348
+2019-06-11 21:44:55,918 - utils - INFO - Log directory: .
+2019-06-11 21:44:58,153 - __main__ - INFO - Log directory: .
+2019-06-11 21:45:00,012 - __main__ - INFO - source_station: {1, 33, 3, 35, 5, 6, 7, 10, 11, 16, 17, 18, 21, 23, 25, 26, 30, 31} target_station: [4]
+2019-06-11 21:45:00,013 - utils - INFO - load data ....
+2019-06-11 21:45:01,336 - utils - INFO - load data cost 1.3236520290374756
+2019-06-11 21:45:01,337 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 875, test :877 
+2019-06-11 21:46:51,795 - utils - INFO - Log directory: .
+2019-06-11 21:46:54,168 - __main__ - INFO - Log directory: .
+2019-06-11 21:46:56,269 - __main__ - INFO - source_station: {32, 1, 34, 3, 4, 6, 7, 13, 16, 17, 22, 23, 24, 25, 26, 28, 29, 30} target_station: [15]
+2019-06-11 21:46:56,269 - utils - INFO - load data ....
+2019-06-11 21:46:57,616 - utils - INFO - load data cost 1.346531867980957
+2019-06-11 21:46:57,616 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 875, test :877 
+2019-06-11 21:47:23,609 - utils - INFO - Log directory: .
+2019-06-11 21:47:25,814 - __main__ - INFO - Log directory: .
+2019-06-11 21:47:27,625 - __main__ - INFO - source_station: {0, 34, 3, 35, 5, 6, 7, 13, 15, 17, 18, 21, 25, 26, 27, 28, 30, 31} target_station: [22]
+2019-06-11 21:47:27,626 - utils - INFO - load data ....
+2019-06-11 21:47:29,009 - utils - INFO - load data cost 1.3833301067352295
+2019-06-11 21:47:29,018 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 875, test :877 
+2019-06-11 21:47:30,147 - __main__ - INFO - iterator :0train loss is 108.4919
+2019-06-11 21:47:57,392 - utils - INFO - Log directory: .
+2019-06-11 21:47:59,700 - __main__ - INFO - Log directory: .
+2019-06-11 21:48:01,729 - __main__ - INFO - source_station: {3, 4, 5, 6, 35, 9, 10, 13, 15, 16, 21, 23, 26, 27, 28, 29, 30, 31} target_station: [18]
+2019-06-11 21:48:01,729 - utils - INFO - load data ....
+2019-06-11 21:48:03,026 - utils - INFO - load data cost 1.2971570491790771
+2019-06-11 21:48:03,027 - utils - INFO - 
+Split data finished!
+total sample :8759 ,train: 6960, val: 875, test :877 
+2019-06-11 21:48:04,102 - __main__ - INFO - iterator :0train loss is 154.5550
+2019-06-11 21:48:05,691 - __main__ - INFO - iterator :0val loss is 141.5043
+2019-06-11 21:48:07,656 - __main__ - INFO - station [18] test loss is 102.9607
+2019-06-11 21:48:08,099 - __main__ - INFO - iterator :0train loss is 136.4587
+2019-06-11 21:48:08,545 - __main__ - INFO - iterator :0train loss is 122.6606
+2019-06-11 21:48:08,994 - __main__ - INFO - iterator :0train loss is 121.8312
+2019-06-11 21:48:09,452 - __main__ - INFO - iterator :0train loss is 109.1425
+2019-06-11 21:48:09,908 - __main__ - INFO - iterator :0train loss is 104.4809
+2019-06-11 21:48:10,358 - __main__ - INFO - iterator :0train loss is 100.2742
+2019-06-11 21:48:10,806 - __main__ - INFO - iterator :0train loss is 84.7588
+2019-06-11 21:48:11,263 - __main__ - INFO - iterator :0train loss is 87.3536
+2019-06-11 21:48:11,711 - __main__ - INFO - iterator :0train loss is 83.0512
+2019-06-11 21:48:12,171 - __main__ - INFO - iterator :0train loss is 84.6740
+2019-06-11 21:48:12,627 - __main__ - INFO - iterator :0train loss is 99.5964
+2019-06-11 21:48:13,073 - __main__ - INFO - iterator :0train loss is 73.5778
+2019-06-11 21:48:13,535 - __main__ - INFO - iterator :0train loss is 66.9586
+2019-06-11 21:48:13,977 - __main__ - INFO - iterator :0train loss is 92.8800
+2019-06-11 21:48:14,415 - __main__ - INFO - iterator :0train loss is 81.8569
+2019-06-11 21:48:14,842 - __main__ - INFO - iterator :0train loss is 71.8528
+2019-06-11 21:48:15,291 - __main__ - INFO - iterator :0train loss is 74.8063
+2019-06-11 21:48:15,733 - __main__ - INFO - iterator :0train loss is 85.1483
+2019-06-11 21:48:16,179 - __main__ - INFO - iterator :0train loss is 84.8274
+2019-06-11 21:48:16,618 - __main__ - INFO - iterator :0train loss is 82.5634
+2019-06-11 21:48:17,065 - __main__ - INFO - iterator :0train loss is 77.5792
+2019-06-11 21:48:17,520 - __main__ - INFO - iterator :0train loss is 80.3864
+2019-06-11 21:48:17,967 - __main__ - INFO - iterator :0train loss is 71.4148
+2019-06-11 21:48:18,425 - __main__ - INFO - iterator :0train loss is 72.6247
+2019-06-11 21:48:18,896 - __main__ - INFO - iterator :0train loss is 84.0961
+2019-06-11 21:48:19,376 - __main__ - INFO - iterator :0train loss is 84.0601
